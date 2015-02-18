@@ -1,0 +1,37 @@
+name = iSimple Install Profile
+description = Install profile for getting development sites up and running quickly
+
+core = 7.x
+
+; core
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+
+; contrib
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = ctools
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+dependencies[] = module_filter
+dependencies[] = link
+dependencies[] = backup_migrate
+dependencies[] = entity
+dependencies[] = pathauto
+dependencies[] = token
+dependencies[] = webform
+dependencies[] = ckeditor

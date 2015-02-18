@@ -1,0 +1,55 @@
+ name = Astrum
+description = Astrum theme, developed by <a href="http://tabvn.com/">Tabvn</a>.
+core = 7.x
+scripts[] = scripts/jquery.tp.plugins.min.js
+scripts[] = scripts/jquery.sb.js
+scripts[] = scripts/jquery.easing.min.js
+scripts[] = scripts/jquery.tooltips.min.js
+scripts[] = scripts/jquery.magnific-popup.min.js
+scripts[] = scripts/jquery.jpanelmenu.js
+scripts[] = scripts/custom.js
+
+
+; System stylesheets we'd like to avoid:
+stylesheets[all][] = system.messages.css
+stylesheets[all][] = system.menus.css
+stylesheets[all][] = system.theme.css
+
+regions[top_menu] = Top menu
+regions[main_menu] = Main menu
+regions[slider] = Slider
+regions[highlighted] = Highlighted
+regions[sidebar_first]  = Left sidebar
+regions[sidebar_second] = Right sidebar
+regions[content] = Content
+regions[home_recent_work] = Home recent work
+regions[clients_logo] = Clients logo
+regions[help] = Help
+regions[page_top] = Page Top
+regions[page_bottom] = Page Bottom
+
+regions[footer_first] = Footer first column
+regions[footer_second] = Footer second column
+regions[footer_third] = Footer third column
+regions[footer_fourth] = Footer fourth column
+regions[footer] = Footer
+
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = favicon
+
+settings[toggle_name] = 0
+settings[toggle_slogan] = 1
+settings[toggle_node_user_picture] = 1
+
+settings[homepage_title] = 1
+settings[astrum_theme_color] = #73B819
+settings[theme_background_image] = noise.png
+settings[theme_layout_style] = wide
+settings[header_search_box] = 1
+settings[footer_style] = light
